@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/et_city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您要查询的城市" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getWeather"
+        android:text="查询" />
+
+         <TextView
+             android:text="请在上方输入城市"
+             android:gravity="center"
+            android:id="@+id/tv_date"
+            android:layout_marginBottom="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+		 <TextView
+            android:text="风向："
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="请在上方输入城市"
+            android:id="@+id/tv_fengxiang"
+            android:layout_marginBottom="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+         <TextView
+            android:text="风力："
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="请在上方输入城市"
+            android:id="@+id/tv_fengli"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+            android:text="最低温度："
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+            <TextView
+                android:text="请在上方输入城市"
+                android:id="@+id/tv_low"
+                 android:layout_width="0dp"
+            	android:layout_weight="1"
+                android:layout_height="wrap_content" />
+			<TextView
+            android:text="最高温度："
+           android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+           <TextView
+               android:text="请在上方输入城市"
+            android:id="@+id/tv_high"
+             android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:text="天气："
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+		 <TextView
+		     android:text="请在上方输入城市"
+                android:id="@+id/tv_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+	   
+ 
+
+</LinearLayout>
