@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+ <Button
+        android:onClick="bindservice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定远程服务" />
+    <Button
+        android:onClick="call"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="调用远程服务中的方法" />
+    <Button
+        android:onClick="unbindservice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="解绑远程服务" />
+
+</LinearLayout>

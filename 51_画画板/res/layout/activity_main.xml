@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 	 android:orientation="vertical"
+    tools:context=".MainActivity" >
+<LinearLayout 
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ 	 android:orientation="horizontal">
+
+    <View
+        android:id="@+id/color_black"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="#000000" />
+
+    <View
+        android:id="@+id/color_red"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="#dc143c" />
+
+    <View 
+        android:id="@+id/color_yellow"
+        android:layout_width="35dp"
+       android:layout_height="35dp"
+       android:background="#0AFEEC"
+        />
+    <View 
+        android:id="@+id/color_blue"
+        android:layout_width="35dp"
+       android:layout_height="35dp"
+       android:background="#EAFF00"
+        />
+    <View 
+        android:id="@+id/color_green"
+        android:layout_width="35dp"
+       android:layout_height="35dp"
+       android:background="#5FFF00"
+        />
+     <View 
+        android:id="@+id/color_orange"
+        android:layout_width="35dp"
+       android:layout_height="35dp"
+       android:background="#0ACAFF"
+        />
+    
+  </LinearLayout>
+  <SeekBar 
+      android:id="@+id/seekbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+  <ImageView 
+      android:id="@+id/iv"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      />
+
+</LinearLayout>
+

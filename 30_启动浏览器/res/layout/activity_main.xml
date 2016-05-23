@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:orientation="vertical"
+   	android:gravity="center"
+    tools:context=".MainActivity" >
+	<!--  还需要对其配置clickable！！-->
+    <TextView
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="enterBaidu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="点击进入baidu" />
+
+</LinearLayout>

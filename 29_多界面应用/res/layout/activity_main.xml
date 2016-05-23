@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+<TextView 
+    android:text="这是应用程序第一页"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"/>
+<Button 
+    android:onClick="gotosecondpage"
+    android:text="点击跳转到第二页"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>
